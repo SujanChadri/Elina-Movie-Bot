@@ -275,7 +275,7 @@ BOT WORKING PROPERLY"""
 ● <code>240₹</code> ➛ <u>Pʟᴀᴛɪɴᴜᴍ Pʟᴀɴ</u> » <code>180 Dᴀʏꜱ</code>
 ● <code>350₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>365 Dᴀʏꜱ</code>
 
-📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-01-03'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-03-09'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
 ⚜️ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ Bʏ Uꜱɪɴɢ : /myplan
 
@@ -291,7 +291,7 @@ BOT WORKING PROPERLY"""
 ● <code>240₹</code> ➛ <u>Pʟᴀᴛɪɴᴜᴍ Pʟᴀɴ</u> » <code>180 Dᴀʏꜱ</code>
 ● <code>350₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>365 Dᴀʏꜱ</code>
 
-📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-01-03'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-03-09'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
 ⚜️ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ Bʏ Uꜱɪɴɢ : /myplan
 
@@ -370,7 +370,7 @@ BOT WORKING PROPERLY"""
     
 ⚜️ Pᴀʏ Aᴍᴏᴜɴᴛ Aᴄᴄᴏʀᴅɪɴɢ Tᴏ Yᴏᴜʀ Pʟᴀɴ Aɴᴅ Eɴᴊᴏʏ Pʀᴇᴍɪᴜᴍ Mᴇᴍʙᴇʀꜱʜɪᴘ !
 
-📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-01-03'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-03-09'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
 ‼️ Mᴜsᴛ Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ.</b>"""
 
@@ -384,7 +384,7 @@ BOT WORKING PROPERLY"""
 ● <code>240₹</code> ➛ <u>Pʟᴀᴛɪɴᴜᴍ Pʟᴀɴ</u> » <code>180 Dᴀʏꜱ</code>
 ● <code>350₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>365 Dᴀʏꜱ</code>
 
-📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-01-03'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-03-09'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
 ⚜️ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ Bʏ Uꜱɪɴɢ : /myplan
 
