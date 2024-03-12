@@ -2033,7 +2033,7 @@ async def auto_filter(client, msg, spoll=False):
         if len(message.text) < 100:
             search = message.text
             m=await message.reply_sticker("CAACAgQAAxkBAAEKSxplArIUActk4ORQuFn3DHFvBqQCOgACBQMAAnJxFyVYcSIunXgGjjAE",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://t.me/FilmyHub_Adda")]]) 
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://t.me/+v5w4kXPkaj1jZTA1")]]) 
             )
             search = search.lower()
             find = search.split(" ")
@@ -2064,7 +2064,7 @@ async def auto_filter(client, msg, spoll=False):
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
         m=await message.reply_sticker("CAACAgQAAxkBAAEKSxplArIUActk4ORQuFn3DHFvBqQCOgACBQMAAnJxFyVYcSIunXgGjjAE",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://t.me/FilmyHub_Adda")]]) 
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://t.me/+v5w4kXPkaj1jZTA1")]]) 
         )
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
@@ -2180,9 +2180,9 @@ async def auto_filter(client, msg, spoll=False):
                 cap += f"<b>\n<a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> 📁 {get_size(file.file_size)} ▷ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b>🧿 Tɪᴛʟᴇ : <code>{search}</code>\n📂 Tᴏᴛᴀʟ Fɪʟᴇꜱ : <code>{total_results}</code>\n📝 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention}\n⏰ Rᴇsᴜʟᴛ Iɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n⚜️ Pᴏᴡᴇʀᴇᴅ ʙʏ : 👇\n⚡ {message.chat.title} \n\n</b>"
+            cap = f"<b>🎬 Tɪᴛʟᴇ : <code>{search}</code>\n📂 Tᴏᴛᴀʟ Fɪʟᴇꜱ : <code>{total_results}</code>\n📝 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention}\n⏰ Rᴇsᴜʟᴛ Iɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n⚜️ Pᴏᴡᴇʀᴇᴅ ʙʏ : 👇\n⚡ {message.chat.title} \n\n</b>"
         else:
-            cap = f"<b>🧿 Tɪᴛʟᴇ : <code>{search}</code>\n📂 Tᴏᴛᴀʟ Fɪʟᴇꜱ : <code>{total_results}</code>\n📝 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention}\n⏰ Rᴇsᴜʟᴛ Iɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n⚜️ Pᴏᴡᴇʀᴇᴅ Bʏ : 👇\n⚡ {message.chat.title} \n\n</b>"
+            cap = f"<b>🎬 Tɪᴛʟᴇ : <code>{search}</code>\n📂 Tᴏᴛᴀʟ Fɪʟᴇꜱ : <code>{total_results}</code>\n📝 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention}\n⏰ Rᴇsᴜʟᴛ Iɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n⚜️ Pᴏᴡᴇʀᴇᴅ Bʏ : 👇\n⚡ {message.chat.title} \n\n</b>"
             # cap+="<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
             for file in files:
                 cap += f"<b><a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> 📁 {get_size(file.file_size)} ▷ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
@@ -2269,7 +2269,9 @@ async def advantage_spell_chok(client, msg):
         if not g_s:
             reqst_gle = query.replace(" ", "+")
             button = [[
-                       InlineKeyboardButton("📝 Rᴇǫᴜᴇꜱᴛ Hᴇʀᴇ", url=f"https://t.me/+IhrdZgCypNFlYjZl")
+                       InlineKeyboardButton("🔍 𝐂𝐥𝐢𝐜𝐤 𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠✅", url=f"https://www.google.com/search?q={reqst_gle}")
+                ],[
+                    InlineKeyboardButton("🔍 𝐂𝐥𝐢𝐜𝐤 𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐝𝐚𝐭𝐞📆", url=f"https://www.google.com/search?q={reqst_gle}+release+date")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -2306,7 +2308,9 @@ async def advantage_spell_chok(client, msg):
         if not movielist:
             reqst_gle = query.replace(" ", "+")
             button = [[
-                       InlineKeyboardButton("📝 Rᴇǫᴜᴇꜱᴛ Hᴇʀᴇ", url=f"https://t.me/+IhrdZgCypNFlYjZl")
+                       InlineKeyboardButton("🔍 𝐂𝐥𝐢𝐜𝐤 𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠✅", url=f"https://www.google.com/search?q={reqst_gle}")
+                ],[
+                    InlineKeyboardButton("🔍 𝐂𝐥𝐢𝐜𝐤 𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐝𝐚𝐭𝐞📆", url=f"https://www.google.com/search?q={reqst_gle}+release+date")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -2347,7 +2351,9 @@ async def advantage_spell_chok(client, msg):
             logger.exception(e)
             reqst_gle = mv_rqst.replace(" ", "+")
             button = [[
-                       InlineKeyboardButton("📝 Rᴇǫᴜᴇꜱᴛ Hᴇʀᴇ", url=f"https://t.me/+IhrdZgCypNFlYjZl")
+                       InlineKeyboardButton("🔍 𝐂𝐥𝐢𝐜𝐤 𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠✅", url=f"https://www.google.com/search?q={reqst_gle}")
+                ],[
+                    InlineKeyboardButton("🔍 𝐂𝐥𝐢𝐜𝐤 𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐝𝐚𝐭𝐞📆", url=f"https://www.google.com/search?q={reqst_gle}+release+date")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -2362,7 +2368,9 @@ async def advantage_spell_chok(client, msg):
         if not movies:
             reqst_gle = mv_rqst.replace(" ", "+")
             button = [[
-                       InlineKeyboardButton("📝 Rᴇǫᴜᴇꜱᴛ Hᴇʀᴇ", url=f"https://t.me/+IhrdZgCypNFlYjZl")
+                       InlineKeyboardButton("🔍 𝐂𝐥𝐢𝐜𝐤 𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠✅", url=f"https://www.google.com/search?q={reqst_gle}")
+                ],[
+                    InlineKeyboardButton("🔍 𝐂𝐥𝐢𝐜𝐤 𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐝𝐚𝐭𝐞📆", url=f"https://www.google.com/search?q={reqst_gle}+release+date")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
