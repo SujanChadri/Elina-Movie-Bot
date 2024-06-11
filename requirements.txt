@@ -41,6 +41,19 @@ pyshorteners
 pyromod
 colorama
 
+### Extra Modes ###
+Flask==2.2.2
+gunicorn==20.1.0
+countryinfo
+telegraph==2.2.0
+
+### YouTube DL ###
+youtube-search-python==1.4.6
+youtube_search
+yt-dlp
+youtube-dl
+ytthumb
+  
 
 
   
