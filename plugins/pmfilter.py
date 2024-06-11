@@ -1815,12 +1815,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('‼️ Dɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
+            InlineKeyboardButton('🎁Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs🎁', callback_data='mods')
         ], [
             InlineKeyboardButton('• Oᴡɴᴇʀ •', user_id=int(6474527080)),
             InlineKeyboardButton('• Sᴛᴀᴛꜱ •', callback_data='stats')
         ], [
             InlineKeyboardButton('🛰️ Rᴇɴᴅᴇʀɪɴɢ Sᴛᴀᴛᴜꜱ ☁️',callback_data='rendr')
+        ], [
+            InlineKeyboardButton('‼️ Dɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer')
         ], [
             InlineKeyboardButton('⇋ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ⇋', callback_data='start')
         ]]
