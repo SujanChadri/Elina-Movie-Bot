@@ -340,14 +340,14 @@ async def start(client, message):
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
         k = await client.send_message(
             chat_id=user_id,
-            text=f"🫂 ʜᴇʏ {message.from_user.mention}, {gtxt}\n\n✅ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ.\n\n⚠️ ꜰɪʟᴇ ɴᴀᴍᴇ : <code>{files.file_name}</code> \n\n📥 ꜰɪʟᴇ ꜱɪᴢᴇ : <code>{get_size(files.file_size)}</code>\n\n",
+            text=f"🫂 Hᴇʏ {message.from_user.mention}, {gtxt}\n\n✅ Yᴏᴜʀ Lɪɴᴋ Iꜱ Rᴇᴀᴅʏ, Kɪɴᴅʟʏ Cʟɪᴄᴋ Oɴ Dᴏᴡɴʟᴏᴀᴅ Bᴜᴛᴛᴏɴ.\n\n⚠️ Fɪʟᴇ Nᴀᴍᴇ : <code>{files.file_name}</code> \n\n📥 Fɪʟᴇ Sɪᴢᴇ : <code>{get_size(files.file_size)}</code>\n\n",
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton('📁 Dᴏᴡɴʟᴏᴀᴅ 📁', url=g)
                 ], [
                     InlineKeyboardButton('⚡ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⚡', url=await get_tutorial(chat_id))
                 ], [
-                    InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="seeplans")
+                    InlineKeyboardButton('✨ Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : Rᴇᴍᴏᴠᴇ Aᴅꜱ ✨', callback_data="seeplans")
                 ]]
             )
         )
@@ -385,7 +385,7 @@ async def start(client, message):
                     InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Vᴇʀɪꜰʏ ⁉️", url=HOWTOVERIFY)
                 ]]
                 await message.reply_text(
-                    text="<b>👋 ʜᴇʏ {message.from_user.mention}, Yᴏᴜ'ʀᴇ Aʀᴇ Sᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ Vᴇʀɪꜰɪᴇᴅ ✅\n\nNᴏᴡ Yᴏᴜ'ᴠᴇ Uɴʟɪᴍɪᴛᴇᴅ Aᴄᴄᴇꜱꜱ Tɪʟʟ Nᴇxᴛ Vᴇʀɪꜰɪᴄᴀᴛɪᴏɴ 🎉</b>",
+                    text="<b>👋 Hᴇʏ {message.from_user.mention}, Yᴏᴜ Aʀᴇ Sᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ Vᴇʀɪꜰɪᴇᴅ ✅\n\nNᴏᴡ Yᴏᴜ'ᴠᴇ Uɴʟɪᴍɪᴛᴇᴅ Aᴄᴄᴇꜱꜱ Fᴏʀ Aʟʟ Mᴏᴠɪᴇꜱ Wɪᴛʜᴏᴜᴛ Aɴʏ Aᴅꜱ Uɴᴛɪʟ Nᴇxᴛ Vᴇʀɪꜰɪᴄᴀᴛɪᴏɴ 🎉</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -435,7 +435,7 @@ async def start(client, message):
             files_ = await get_file_details(file_id)
             files = files_[0]
             g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-            k = await client.send_message(chat_id=message.from_user.id,text=f"🫂 ʜᴇʏ {message.from_user.mention}, {gtxt}\n\n✅ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ.\n\n⚠️ ꜰɪʟᴇ ɴᴀᴍᴇ : <code>{files.file_name}</code> \n\n📥 ꜰɪʟᴇ ꜱɪᴢᴇ : <code>{get_size(files.file_size)}</code>\n\n", reply_markup=InlineKeyboardMarkup(
+            k = await client.send_message(chat_id=message.from_user.id,text=f"🫂 Hᴇʏ {message.from_user.mention}, {gtxt}\n\n✅ Yᴏᴜʀ Lɪɴᴋ Iꜱ Rᴇᴀᴅʏ, Kɪɴᴅʟʏ Cʟɪᴄᴋ Oɴ Dᴏᴡɴʟᴏᴀᴅ Bᴜᴛᴛᴏɴ.\n\n⚠️ Fɪʟᴇ Nᴀᴍᴇ : <code>{files.file_name}</code> \n\n📥 Fɪʟᴇ Sɪᴢᴇ : <code>{get_size(files.file_size)}</code>\n\n", reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton('📁 Dᴏᴡɴʟᴏᴀᴅ 📁', url=g)
@@ -462,7 +462,7 @@ async def start(client, message):
                     InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Vᴇʀɪꜰʏ ⁉️", url=HOWTOVERIFY)
                 ]]
                 await message.reply_text(
-                    text="<b>👋 ʜᴇʏ ᴛʜᴇʀᴇ,\n\n📌 <u>ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ</u>.</b>",
+                    text="<b>👋 Hᴇʏ Tʜᴇʀᴇ,\n\n📌 <u>Yᴏᴜ'ʀᴇ Nᴏᴛ Vᴇʀɪꜰɪᴇᴅ Tᴏᴅᴀʏ, Pʟᴇᴀꜱᴇ Vᴇʀɪꜰʏ Aɴᴅ Gᴇᴛ Uɴʟɪᴍɪᴛᴇᴅ Aᴄᴄᴇꜱꜱ Uɴᴛɪʟ Nᴇxᴛ Vᴇʀɪꜰɪᴄᴀᴛɪᴏɴ</u>.</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -524,7 +524,7 @@ async def start(client, message):
             InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Vᴇʀɪꜰʏ ⁉️", url=HOWTOVERIFY)
         ]]
         await message.reply_text(
-            text="<b>👋 ʜᴇʏ ᴛʜᴇʀᴇ,\n\n📌 <u>ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ</u>.</b>",
+            text="<b>👋 Hᴇʏ Tʜᴇʀᴇ,\n\n📌 <u>Yᴏᴜ'ʀᴇ Nᴏᴛ Vᴇʀɪꜰɪᴇᴅ Tᴏᴅᴀʏ, Pʟᴇᴀꜱᴇ Vᴇʀɪꜰʏ Aɴᴅ Gᴇᴛ Uɴʟɪᴍɪᴛᴇᴅ Aᴄᴄᴇꜱꜱ Uɴᴛɪʟ Nᴇxᴛ Vᴇʀɪꜰɪᴄᴀᴛɪᴏɴ</u>.</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
