@@ -1478,19 +1478,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                     InlineKeyboardButton('📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌', url='https://t.me/Sujan_BotZ')
                 ]]
-            else:
-                await query.answer("🚸 Nᴏᴛᴇ :\nAᴅ-Fʀᴇᴇ Sᴇʀᴠɪᴄᴇ Iꜱ Oɴʟʏ Fᴏʀ Pʀᴇᴍɪᴜᴍ Uꜱᴇʀꜱ.\n\nTᴏ Kɴᴏᴡ Mᴏʀᴇ Cʜᴇᴄᴋ Pʟᴀɴꜱ.", show_alert=True)
-                await query.message.reply_text(
-                text="<b>‼️ Wᴀɴᴛ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅꜱ ?\n\n✅ Pᴜʀᴄʜᴀꜱᴇ Pʀᴇᴍɪᴜᴍ Aɴᴅ Eɴᴊᴏʏ Aᴅ-Fʀᴇᴇ Exᴘᴇʀɪᴇɴᴄᴇ.</b>",
-                quote=True,
-                disable_web_page_preview=True,                  
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💸 Cʜᴇᴄᴋᴏᴜᴛ Pʀᴇᴍɪᴜᴍ Pʟᴀɴꜱ 💸", callback_data='seeplans')]]))
-                buttons = [[
-                    InlineKeyboardButton("🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ", url=hp_link),
-                    InlineKeyboardButton("🖥️ Wᴀᴛᴄʜ Oɴʟɪɴᴇ", url=ph_link)
-                ],[
-                    InlineKeyboardButton('❗Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ❗', url=STREAMHTO)
-                ]]
+            #else:
+                #await query.answer("🚸 Nᴏᴛᴇ :\nAᴅ-Fʀᴇᴇ Sᴇʀᴠɪᴄᴇ Iꜱ Oɴʟʏ Fᴏʀ Pʀᴇᴍɪᴜᴍ Uꜱᴇʀꜱ.\n\nTᴏ Kɴᴏᴡ Mᴏʀᴇ Cʜᴇᴄᴋ Pʟᴀɴꜱ.", show_alert=True)
+                #await query.message.reply_text(
+                #text="<b>‼️ Wᴀɴᴛ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅꜱ ?\n\n✅ Pᴜʀᴄʜᴀꜱᴇ Pʀᴇᴍɪᴜᴍ Aɴᴅ Eɴᴊᴏʏ Aᴅ-Fʀᴇᴇ Exᴘᴇʀɪᴇɴᴄᴇ.</b>",
+                #quote=True,
+                #disable_web_page_preview=True,                  
+                #reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💸 Cʜᴇᴄᴋᴏᴜᴛ Pʀᴇᴍɪᴜᴍ Pʟᴀɴꜱ 💸", callback_data='seeplans')]]))
+                #buttons = [[
+                    #InlineKeyboardButton("🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ", url=hp_link),
+                    #InlineKeyboardButton("🖥️ Wᴀᴛᴄʜ Oɴʟɪɴᴇ", url=ph_link)
+                #],[
+                    #InlineKeyboardButton('❗Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ❗', url=STREAMHTO)
+                #]]
     
             query.message.reply_markup = query.message.reply_markup or []
             query.message.reply_markup.inline_keyboard.pop(0)
@@ -1529,8 +1529,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                     InlineKeyboardButton('💠 Hᴇʟᴘ 💠', callback_data='help'),
                     InlineKeyboardButton('♻️ Aʙᴏᴜᴛ ♻️', callback_data='about')               
-                ],[
-                    InlineKeyboardButton('✨ Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : Rᴇᴍᴏᴠᴇ Aᴅꜱ ✨', callback_data="premium_info")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
