@@ -394,9 +394,7 @@ BOT WORKING PROPERLY"""
     
 🎖️ <u>Aᴠᴀɪʟᴀʙʟᴇ Pʟᴀɴs</u> :
 
-● <code>20₹</code> ➛ <u>Bʀᴏɴᴢᴇ Pʟᴀɴ</u> » <code>15 Dᴀʏꜱ</code>
-● <code>40₹</code> ➛ <u>Sɪʟᴠᴇʀ Pʟᴀɴ</u> » <code>30 Dᴀʏꜱ</code>
-● <code>65₹</code> ➛ <u>Gᴏʟᴅ Pʟᴀɴ</u> » <code>45 Dᴀʏꜱ</code>
+● <code>40₹</code> ➛ <u>Gᴏʟᴅ Pʟᴀɴ</u> » <code>30 Dᴀʏꜱ</code>
 ● <code>75₹</code> ➛ <u>Pʟᴀᴛɪɴᴜᴍ Pʟᴀɴ</u> » <code>60 Dᴀʏꜱ</code>
 ● <code>120₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>90 Dᴀʏꜱ</code>
 
